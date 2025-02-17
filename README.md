@@ -26,6 +26,14 @@
                             <p> <b> Directive 8020</b> is the latest entry in The Dark Pictures Anthology and introduces a terrifying sci-fi horror setting. Set aboard the spaceship Cassiopeia, the game follows a crew sent to explore planet Tau Ceti F, only to encounter an unknown alien organism that begins to take control. As paranoia spreads among the crew, players must make critical choices that determine who survives and who falls victim to the extraterrestrial threat. With Supermassive Games’ signature cinematic approach, branching narratives, and immersive horror elements, Directive 8020 offers a chilling deep-space experience reminiscent of films like Alien and Event Horizon.</p>
             
                             <button><a href="https://store.steampowered.com/app/2255370/Directive_8020/">Buy Now on Steam!</a></button>
+                            <button id="tombol">Notify Future Updates</button>
+
+                            <script>
+                              let tombol = document.letElementById('tombol');
+
+                              tombol.addEventListener('click', function() {alert('Tombol diklik!'); 
+                            });
+                            </script>
 
                             <br><br>
                     </div >
