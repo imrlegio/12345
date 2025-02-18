@@ -31,7 +31,7 @@
                             <script>
                               let tombol = document.letElementById('tombol');
 
-                              tombol.addEventListener('click', function() {alert('Tombol diklik!'); 
+                              tombol.addEventListener('click', function() {alert('Thank you. You will be notified!'); 
                             });
                             </script>
 
